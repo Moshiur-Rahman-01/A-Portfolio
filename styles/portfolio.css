@@ -117,6 +117,9 @@ main{
 .section-title{
     font-size: 35px;
     font-weight: bold;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 110px;
 
 }
 .section-description{
@@ -154,4 +157,53 @@ main{
 .resume-container{
     display: flex;
     gap: 80px;
+}
+
+.resume-column-title{
+    margin-bottom: 30px;
+}
+.experience-title{
+    margin-bottom: 10px;
+}
+.experience-description{
+    padding: 10px 15px 10px 0px;
+}
+.experience{
+    margin: 30px 47px 30px 0px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* footer styles */
+
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+
+.sec-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"] , footer input[type=email] , footer textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 20px 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: none;
+}
+
+textarea[placeholder] {
+    font-size: 18px;
 }
